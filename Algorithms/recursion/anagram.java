@@ -24,7 +24,7 @@ class AnagramApp {
     }
 
     public static void doAnagram(int newSize) {
-        int limit;
+       // int limit; you don't need this variable 
         if (newSize == 1)                      // if too small,
             return;                            // go no further
 
